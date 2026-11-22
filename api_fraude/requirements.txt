@@ -1,0 +1,10 @@
+# La versión de scikit-learn DEBE ser la misma con la que se entrenó el modelo
+# (está en modelos/metadata_modelo.json -> "version_sklearn").
+scikit-learn==1.9.1
+pandas>=2.2
+numpy>=1.26
+joblib>=1.3
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+tzdata>=2024.1

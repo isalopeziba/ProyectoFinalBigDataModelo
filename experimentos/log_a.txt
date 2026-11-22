@@ -1,0 +1,14 @@
+actual                                        PR-AUC=0.9195±0.0068 p@500=0.997 p@1000=0.965 fp@r90=453 fp@r95=1163 iter=104 t=65s
+A: todas                                      PR-AUC=0.9271±0.0026 p@500=1.000 p@1000=0.982 fp@r90=406 fp@r95=1069 iter=103 t=65s
+A: todas menos log_monto_promedio_30d         PR-AUC=0.9246±0.0071 p@500=0.999 p@1000=0.974 fp@r90=414 fp@r95=1076 iter=102 t=43s
+A: todas menos log_monto_promedio_categoria   PR-AUC=0.9242±0.0019 p@500=1.000 p@1000=0.976 fp@r90=434 fp@r95=1148 iter=94 t=18s
+A: todas menos diferencia_monto_30d           PR-AUC=0.9272±0.0031 p@500=1.000 p@1000=0.977 fp@r90=390 fp@r95=1124 iter=103 t=20s
+A: todas menos ratio_categoria_vs_30d         PR-AUC=0.9252±0.0015 p@500=0.999 p@1000=0.975 fp@r90=409 fp@r95=1066 iter=98 t=14s
+A: todas menos sin_historial                  PR-AUC=0.9281±0.0029 p@500=1.000 p@1000=0.982 fp@r90=395 fp@r95=1050 iter=108 t=15s
+A: todas menos hora_decimal                   PR-AUC=0.9253±0.0049 p@500=0.999 p@1000=0.978 fp@r90=423 fp@r95=1064 iter=100 t=14s
+A: actual + log_monto_promedio_30d            PR-AUC=0.9205±0.0034 p@500=0.997 p@1000=0.969 fp@r90=427 fp@r95=1230 iter=87 t=14s
+A: actual + log_monto_promedio_categoria      PR-AUC=0.9226±0.0035 p@500=0.997 p@1000=0.967 fp@r90=418 fp@r95=1117 iter=107 t=21s
+A: actual + diferencia_monto_30d              PR-AUC=0.9187±0.0048 p@500=0.997 p@1000=0.964 fp@r90=441 fp@r95=1203 iter=94 t=28s
+A: actual + ratio_categoria_vs_30d            PR-AUC=0.9227±0.0021 p@500=0.998 p@1000=0.967 fp@r90=417 fp@r95=1118 iter=105 t=14s
+A: actual + sin_historial                     PR-AUC=0.9186±0.0067 p@500=0.997 p@1000=0.964 fp@r90=463 fp@r95=1200 iter=99 t=13s
+A: actual + hora_decimal                      PR-AUC=0.9219±0.0019 p@500=0.997 p@1000=0.968 fp@r90=437 fp@r95=1049 iter=104 t=14s

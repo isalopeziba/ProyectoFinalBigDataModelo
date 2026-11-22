@@ -1,0 +1,8 @@
+﻿# Datos pesados: se descargan de Kaggle y se regeneran con 01_datos_eda.ipynb
+dataset/
+datos_procesados/
+
+# Temporales
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/

@@ -1,0 +1,13 @@
+es_fraude               0             1
+tx_1h            0.000000  0.000000e+00
+tx_24h           3.000000  4.000000e+00
+monto_24h   598990.000000  5.859542e+06
+tx_previas     779.000000  4.380000e+02
+zscore_30d      -0.224662  2.033537e+00
+D: actual + todas D                           PR-AUC=0.9726±0.0007 p@500=0.999 p@1000=0.998 fp@r90=76 fp@r95=229 iter=116 t=15s
+D: A elegidas + todas D                       PR-AUC=0.9697±0.0055 p@500=0.999 p@1000=0.996 fp@r90=90 fp@r95=286 iter=99 t=14s
+D: A elegidas + tx_1h                         PR-AUC=0.9273±0.0019 p@500=1.000 p@1000=0.980 fp@r90=386 fp@r95=1075 iter=95 t=14s
+D: A elegidas + tx_24h                        PR-AUC=0.9293±0.0013 p@500=0.999 p@1000=0.982 fp@r90=364 fp@r95=1203 iter=106 t=14s
+D: A elegidas + monto_24h                     PR-AUC=0.9633±0.0017 p@500=0.996 p@1000=0.995 fp@r90=133 fp@r95=423 iter=95 t=14s
+D: A elegidas + tx_previas                    PR-AUC=0.9304±0.0017 p@500=1.000 p@1000=0.984 fp@r90=407 fp@r95=1052 iter=110 t=14s
+D: A elegidas + zscore_30d                    PR-AUC=0.9300±0.0036 p@500=0.998 p@1000=0.975 fp@r90=361 fp@r95=939 iter=94 t=14s

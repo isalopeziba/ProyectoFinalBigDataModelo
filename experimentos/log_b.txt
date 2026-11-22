@@ -1,0 +1,18 @@
+B1 peso=balanced                              PR-AUC=0.9274±0.0031 p@500=0.999 p@1000=0.978 fp@r90=388 fp@r95=1099 iter=103 t=14s
+B1 peso=None                                  PR-AUC=0.8033±0.0128 p@500=0.937 p@1000=0.947 fp@r90=3499 fp@r95=55695 iter=12 t=10s
+B1 peso=1:10                                  PR-AUC=0.9069±0.0194 p@500=0.982 p@1000=0.980 fp@r90=442 fp@r95=1175 iter=127 t=15s
+B1 peso=1:30                                  PR-AUC=0.9281±0.0103 p@500=0.997 p@1000=0.986 fp@r90=376 fp@r95=1075 iter=130 t=15s
+>> etapa 1: {'lr': 0.1, 'hojas': 31, 'max_iter': 300, 'class_weight': 'balanced', 'min_samples_leaf': 20, 'l2': 0.0, 'nativas': False}
+B2 lr=0.05 iter=800                           PR-AUC=0.9231±0.0029 p@500=1.000 p@1000=0.974 fp@r90=411 fp@r95=1111 iter=166 t=16s
+B2 lr=0.1 iter=800                            PR-AUC=0.9274±0.0031 p@500=0.999 p@1000=0.978 fp@r90=388 fp@r95=1099 iter=103 t=14s
+B2 hojas=15 iter=800                          PR-AUC=0.9265±0.0023 p@500=1.000 p@1000=0.979 fp@r90=404 fp@r95=1104 iter=183 t=16s
+B2 hojas=63 iter=800                          PR-AUC=0.9251±0.0002 p@500=0.998 p@1000=0.976 fp@r90=406 fp@r95=1026 iter=71 t=13s
+B2 hojas=127 lr=0.05 iter=800                 PR-AUC=0.9167±0.0039 p@500=0.991 p@1000=0.963 fp@r90=427 fp@r95=1238 iter=103 t=15s
+>> etapa 2: {'lr': 0.1, 'hojas': 31, 'max_iter': 300, 'class_weight': 'balanced', 'min_samples_leaf': 20, 'l2': 0.0, 'nativas': False}
+B3 min_leaf=100                               PR-AUC=0.9257±0.0025 p@500=0.999 p@1000=0.975 fp@r90=405 fp@r95=1094 iter=95 t=13s
+B3 min_leaf=300                               PR-AUC=0.9250±0.0037 p@500=0.999 p@1000=0.976 fp@r90=427 fp@r95=1178 iter=99 t=14s
+B3 l2=1                                       PR-AUC=0.9250±0.0036 p@500=0.998 p@1000=0.977 fp@r90=411 fp@r95=1122 iter=95 t=13s
+B3 l2=10                                      PR-AUC=0.9279±0.0018 p@500=1.000 p@1000=0.978 fp@r90=381 fp@r95=1081 iter=107 t=14s
+>> etapa 3: {'lr': 0.1, 'hojas': 31, 'max_iter': 300, 'class_weight': 'balanced', 'min_samples_leaf': 20, 'l2': 0.0, 'nativas': False}
+B4 categorias nativas                         PR-AUC=0.9267±0.0031 p@500=0.999 p@1000=0.980 fp@r90=388 fp@r95=1199 iter=90 t=12s
+>> FINAL: {"lr": 0.1, "hojas": 31, "max_iter": 300, "class_weight": "balanced", "min_samples_leaf": 20, "l2": 0.0, "nativas": false}

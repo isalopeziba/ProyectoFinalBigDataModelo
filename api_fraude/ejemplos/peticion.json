@@ -1,0 +1,10 @@
+{
+  "transaccion_id": "TX-0083726",
+  "monto": 245800,
+  "fecha_hora": "2026-11-21T10:30:00",
+  "categoria": "compras en línea",
+  "monto_promedio_30d": 62400,
+  "monto_promedio_categoria": 15200,
+  "primera_vez_categoria": true,
+  "segundos_desde_ultima": 540
+}

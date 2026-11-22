@@ -1,0 +1,44 @@
+{
+  "version_modelo": "1.0.0",
+  "algoritmo": "HistGradientBoostingClassifier",
+  "hiperparametros": {
+    "learning_rate": 0.1,
+    "max_leaf_nodes": 31,
+    "max_iter": 300,
+    "class_weight": "balanced"
+  },
+  "semilla": 42,
+  "fecha_entrenamiento": "2026-11-21T18:50:02",
+  "version_sklearn": "1.9.1",
+  "columnas_entrada": [
+    "monto",
+    "fecha_hora",
+    "categoria",
+    "monto_promedio_30d",
+    "monto_promedio_categoria",
+    "primera_vez_categoria",
+    "segundos_desde_ultima"
+  ],
+  "variables_modelo": [
+    "log_monto",
+    "hora",
+    "dia_semana",
+    "ratio_monto_30d",
+    "ratio_monto_categoria",
+    "primera_vez_categoria",
+    "log_segundos_desde_ultima",
+    "categoria",
+    "canal"
+  ],
+  "umbral_sugerido": 0.7452,
+  "metricas_test": {
+    "pr_auc": 0.8825,
+    "precision@100": 1.0,
+    "precision@500": 1.0,
+    "umbral": 0.7452,
+    "recall": 0.9413,
+    "precision": 0.4033,
+    "falsos_positivos": 2987.0,
+    "tasa_alertas": 0.009
+  }
+}

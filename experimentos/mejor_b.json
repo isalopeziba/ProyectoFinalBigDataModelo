@@ -1,0 +1,1 @@
+{"extras": ["log_monto_promedio_30d", "log_monto_promedio_categoria", "ratio_categoria_vs_30d", "hora_decimal"], "cfg": {"lr": 0.1, "hojas": 31, "max_iter": 300, "class_weight": "balanced", "min_samples_leaf": 20, "l2": 0.0, "nativas": false}}
