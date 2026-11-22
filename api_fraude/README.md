@@ -15,9 +15,4 @@ La API no decide si una transacción es sospechosa: eso lo hace el backend compa
 
 
 
-## Al actualizar el modelo
 
-1. Vuelve a ejecutar `02_modelo.ipynb`.
-2. Copia el nuevo `fraud_model.joblib`, `metadata_modelo.json` y `variables.py` a esta carpeta.
-3. Ejecuta `pytest -v` y reinicia la API.
-4. Avisa al backend si cambió `umbral_sugerido` (lo puede leer de `/model-info`).
